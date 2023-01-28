@@ -1,0 +1,27 @@
+
+.title{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto 5%; */
+    margin: 30px auto;
+}
+.title h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 5%;
+}
+.title p{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.87);
+    margin-right: 5%;
+}

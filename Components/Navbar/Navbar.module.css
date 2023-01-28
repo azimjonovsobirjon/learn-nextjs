@@ -1,0 +1,181 @@
+.navContainer {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+    height: 75px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menuPanel img {
+    width: 40px;
+    height: 40px;
+}
+
+.menuPanel {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.menuPanel select {
+    width: 72px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    border: 0px;
+    letter-spacing: 0.01em;
+}
+
+.menuPanel select option {
+    background-color: transparent;
+}
+
+.menuPanel select:focus-visible {
+    outline: none;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    margin-right: 49.5px;
+}
+
+.navLogo img {
+    width: 125px;
+    height: 62px;
+}
+
+.navLogo div {
+    margin-left: 150px;
+}
+
+.navMenu i,
+.searchPanel i {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.searchPanel {
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.searchPanel button {
+    width: 200px;
+    height: 48px;
+}
+
+.searchIcon, .savedIcon{
+    margin-right: 30px;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+}
+
+@media (max-width: 992px) {
+    .searchIcon, .savedIcon {
+        font-size: 1.5rem !important;
+    }
+
+    .header h1 {
+        font-size: 35px;
+        margin: 50px auto 20px auto;
+        line-height: 40px;
+        max-width: 60%;
+    }
+
+    .header p {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 50%;
+    }
+
+    .searchPanel button {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .navLogo img {
+        width: 80px;
+        height: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .navLogo div {
+        margin-left: 0px;
+    }
+
+    .searchPanel button {
+        display: none;
+    }
+
+    .savedIcon {
+        margin-right: 0px !important;
+    }
+
+    .navMenu {
+        margin-right: 30px;
+    }
+
+    .header h1 {
+        font-size: 35px;
+        margin: 150px auto 20px auto;
+        line-height: 40px;
+        max-width: 90%;
+    }
+
+    .header p {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 80%;
+    }
+
+    .header .bannerBtn {
+        width: 202px;
+        height: 40px;
+        font-size: 18px;
+        margin: 36px auto 46px auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .languages {
+        display: none;
+    }
+    .header h1 {
+        font-size: 20px;
+        margin: 50px auto 20px auto;
+        line-height: 30px;
+        max-width: 90%;
+    }
+
+    .header p {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 80%;
+    }
+
+    .header .bannerBtn {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+        margin: 36px auto 46px auto;
+    }
+
+    .header {
+        height: 400px;
+    }
+}
+

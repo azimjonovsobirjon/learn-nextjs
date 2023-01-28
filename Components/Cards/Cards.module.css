@@ -1,0 +1,62 @@
+.Card {
+    margin: 0 0px 53px 0px;
+}
+
+.pageCounter {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CardTitle {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: center;
+    margin: 15px auto 8px auto;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.CardInfo {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.68);
+    text-align: center;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+}
+
+.Circle1,
+.Circle2,
+.Circle3 {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 18px 20px 0px 0px;
+    border-radius: 50%;
+}
+
+.Circle1 {
+    background-color: #96361D;
+}
+
+.Circle2 {
+    background-color: #008985;
+}
+
+.Circle3 {
+    background-color: #CDD0CF;
+}

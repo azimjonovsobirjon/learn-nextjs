@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.cardsContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1440px;
+    margin: 0 5% 0 5%;
+    grid-column-gap: 24px;
+    justify-content: center;
+}
+
+
+.btn {
+    width: 266px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background-color: #A6A6A6;
+    letter-spacing: 0.01em;
+    border: none;
+}
+
+.paginationBtn {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationBtn a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+    cursor: pointer;
+}
+.paginationActive{
+    border: 1px solid #004911;
+    border-radius: 50%;
+}
+.paginationBtn li:last-child{
+    margin-left: 20px;
+    border-radius: 50%;
+    /* background-color: #004911; */
+}
+.paginationsDisabled{
+    border-radius: 50%;
+    background: rgba(200, 200, 200, 0.87);
+    color: #FFFFFF;
+}
+.paginationBtn li:first-child{
+    margin-right: 20px;
+    /* color: #FFFFFF; */
+}
+
+
+/* .paginationBtn li{
+    width: 44px;
+    height: 44px;
+} */
