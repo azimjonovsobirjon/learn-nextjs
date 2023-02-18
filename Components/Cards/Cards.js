@@ -3,7 +3,6 @@ import style from '../Cards/Cards.module.css';
 import Image from 'next/image';
 import JsonData from "../../pages/MOCK_DATA.json"
 import ReactPaginate from 'react-paginate';
-// import { AiOutlineArrowRight } from '@ant-design/icons';
 export default function Cards() {
   const [users, setUsers] = useState(JsonData.slice(0,18))
   const [pageNumber, setPageNumber] = useState(0)
@@ -47,14 +46,13 @@ export default function Cards() {
           pageCount={pageCount}
           onPageChange={changePage} 
           containerClassName={style.paginationBtn}
-          previousLinkClassName={"btn"}
+          previousLinkClassName={"Btn"}
           nextLinkClassName={style.nextBtn}
           disabledClassName={style.paginationsDisabled}
           activeClassName={style.paginationActive}
         />
         <h1 className={style.pageCounter}>Стр {pageNumber + 1}/{pageCount}</h1>
       </div>
-
     </>
   )
 
