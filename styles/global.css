@@ -3,19 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.cardsContainer{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    max-width: 1440px;
-    margin: 0 5% 0 5%;
-    grid-column-gap: 24px;
-    justify-content: center;
-}
-
 
 .btn {
-    width: 266px;
-    height: 60px;
+    width: 200px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,49 +17,32 @@
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
-    background-color: #A6A6A6;
+    background-color: #c8c8c8;
     letter-spacing: 0.01em;
     border: none;
+    border-radius: 5px;
 }
 
-.paginationBtn {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.searchPanelBtn:hover {
+    background: #535353;
+    transition: all .3s ease;
 }
 
-.paginationBtn a {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 13px;
-    cursor: pointer;
-}
-.paginationActive{
-    border: 1px solid #004911;
-    border-radius: 50%;
-}
-.paginationBtn li:last-child{
-    margin-left: 20px;
-    border-radius: 50%;
-    /* background-color: #004911; */
-}
-.paginationsDisabled{
-    border-radius: 50%;
-    background: rgba(200, 200, 200, 0.87);
-    color: #FFFFFF;
-}
-.paginationBtn li:first-child{
-    margin-right: 20px;
-    /* color: #FFFFFF; */
+@media (max-width: 576px) {
+    .h30 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .p20 {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .doorSliderTitle {
+        margin: 20px auto 10px auto;
+    }
+
 }
 
-
-/* .paginationBtn li{
-    width: 44px;
-    height: 44px;
-} */

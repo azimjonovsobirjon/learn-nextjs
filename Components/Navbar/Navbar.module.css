@@ -1,7 +1,12 @@
 .navContainer {
     background: rgba(0, 0, 0, 0.3);
 }
-
+.header{
+    position: sticky;
+    z-index: 111;
+    backdrop-filter: saturate(180%) blur(20px);
+    top: 0;
+}
 .nav {
     height: 75px;
     max-width: 1440px;
@@ -49,11 +54,13 @@
     padding: 0px;
     gap: 15px;
     margin-right: 49.5px;
+    cursor: pointer;
 }
 
 .navLogo img {
     width: 125px;
     height: 62px;
+    cursor: pointer;
 }
 
 .navLogo div {
@@ -71,16 +78,22 @@
     display: flex;
     align-items: center;
 }
-
-.searchPanel button {
-    width: 200px;
-    height: 48px;
+.searchPanelBtn:hover{
+    background: #535353;
+    transition: all .3s ease;
 }
-
+.searchPanelBtn:hover{
+        background: #535353;
+        transition: all .3s ease;
+}
 .searchIcon, .savedIcon{
     margin-right: 30px;
     font-size: 1.7rem;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.languages select{
+    cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -172,10 +185,6 @@
         height: 30px;
         font-size: 12px;
         margin: 36px auto 46px auto;
-    }
-
-    .header {
-        height: 400px;
     }
 }
 

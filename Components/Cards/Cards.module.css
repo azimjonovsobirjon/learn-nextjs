@@ -1,5 +1,17 @@
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    grid-column-gap: 30px;
+    justify-content: center;
+    padding: 0 5%;
+}
+
 .Card {
     margin: 0 0px 53px 0px;
+    position: relative;
 }
 
 .pageCounter {
@@ -33,7 +45,32 @@
     color: rgba(0, 0, 0, 0.68);
     text-align: center;
 }
-
+.fullWidthImage {
+    width: 100% !important;
+    height: auto !important;
+    cursor: pointer;
+}
+.CardSaver{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d7d7d7;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 99;
+    cursor: pointer;
+}
+.CardSaver svg{
+    fill: #fff;
+}
+.CardSaver svg:hover{
+    fill: #535353;
+}
 .color {
     display: flex;
     justify-content: center;
@@ -53,10 +90,108 @@
     background-color: #96361D;
 }
 
+.Circle1:focus,.Circle2:focus,.Circle3:focus{
+    border: 2px solid black;
+}
 .Circle2 {
     background-color: #008985;
 }
 
 .Circle3 {
     background-color: #CDD0CF;
+}
+.paginationBtn {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginationBtn a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.paginationBtn li:last-child {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.paginationBtn li:first-child {
+    margin-right: 20px;
+}
+
+.paginationsDisabled {
+    border-radius: 50%;
+    background: rgba(200, 200, 200, 0.87);
+    color: #FFFFFF;
+}
+
+.paginationActive {
+    border: 1px solid #004911;
+    border-radius: 50%;
+}
+@media (max-width: 500px) {
+    .Card {
+        margin: 0 0px 20px 0px;
+    }
+
+    .cardsContainer {
+        grid-template-columns: auto;
+    }
+
+}
+@media(max-width: 576px){
+    .pageCounter {
+        margin-bottom: 20px;
+    }
+    .cardsContainer h4 {
+        font-size: 14px;
+    }
+
+    .cardsContainer p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .cardsContainer .circle1,
+    .cardsContainer .circle2,
+    .cardsContainer .circle3 {
+        width: 25px;
+        height: 25px;
+        margin: 18px 10px 0px 10px;
+    }
+    
+    .Card Image {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cardsContainer {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardsContainer {
+        justify-content: center;
+    }
+
+    .cardsContainer h4 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .cardsContainer p {
+        font-size: 15px;
+        line-height: 15px;
+    }
 }

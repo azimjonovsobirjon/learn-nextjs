@@ -87,7 +87,7 @@ export default function Footer() {
                             <i className='bx bx-phone-call'></i>+998 97 344 24 17
                         </a>
                     </li>
-                    <li className="contact-btn">
+                    <li className={style.contactBtn}>
                         <a href="#">
                             <button className={style.contact}>Связаться с нами</button>
                         </a>
