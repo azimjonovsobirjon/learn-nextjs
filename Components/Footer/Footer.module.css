@@ -23,11 +23,9 @@
 .footer a,
 .infoCards a {
     text-decoration: none;
-    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.01em;
     color: rgba(255, 255, 255, 0.68);
 }
 
@@ -49,11 +47,9 @@
 
 .footerLogo p {
     margin: 20px 0px 20px 0px;
-    font-family: 'Montserrat';
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0.01em;
     color: rgba(255, 255, 255, 0.68);
     max-width: 88%;
 }
@@ -105,14 +101,12 @@
 }
 
 .contact {
-    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     text-align: center;
     width: 50%;
-    letter-spacing: 0.01em;
     color: #FFFFFF;
 }
 

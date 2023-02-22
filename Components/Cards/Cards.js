@@ -15,7 +15,7 @@ export default function Cards() {
           <section className={style.CardsContainer}>
             <div className={style.Card}>
               <div className={style.CardSaver}>
-              <svg width="22" height="29" viewBox="0 0 28 34" xmlns="http://www.w3.org/2000/svg"><path d="M2.72234 2.14403C2.06287 2.80625 1.69238 3.70442 1.69238 4.64094V32.8903L14.0001 26.7107L26.3078 32.8903V4.64094C26.3078 3.70442 25.9373 2.80625 25.2778 2.14403C24.6183 1.4818 23.7239 1.10977 22.7913 1.10977H5.20887C4.27624 1.10977 3.38181 1.4818 2.72234 2.14403Z" stroke="#d7d7d7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              <svg width={22} height={29} viewBox="0 0 28 34" xmlns="http://www.w3.org/2000/svg"><path d="M2.72234 2.14403C2.06287 2.80625 1.69238 3.70442 1.69238 4.64094V32.8903L14.0001 26.7107L26.3078 32.8903V4.64094C26.3078 3.70442 25.9373 2.80625 25.2778 2.14403C24.6183 1.4818 23.7239 1.10977 22.7913 1.10977H5.20887C4.27624 1.10977 3.38181 1.4818 2.72234 2.14403Z" stroke="#d7d7d7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path></svg>
               </div>
               <Image className={style.fullWidthImage} src="/door1.png" width={384} height={481} alt="image" />
               <h4 className={style.CardTitle}>{user.title}</h4>

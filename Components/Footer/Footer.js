@@ -94,9 +94,9 @@ export default function Footer() {
                     </li>
                     <li>
                         <a href="#">
-                            <button className={style.social}><i class='bx bxl-instagram'></i></button>
-                            <button className={style.social}><i class='bx bxl-facebook-circle'></i></button>
-                            <button className={style.social}><i class='bx bxl-youtube'></i></button>
+                            <button className={style.social}><i className='bx bxl-instagram'></i></button>
+                            <button className={style.social}><i className='bx bxl-facebook-circle'></i></button>
+                            <button className={style.social}><i className='bx bxl-youtube'></i></button>
                         </a>
                     </li>
                 </ul>

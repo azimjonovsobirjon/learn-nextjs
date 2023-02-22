@@ -1,56 +1,50 @@
-
 .cardsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
     max-width: 1440px;
     margin: 0 auto;
     grid-column-gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 5%;
 }
 
 .Card {
-    margin: 0 0px 53px 0px;
+    margin: 0 0 53px 0;
     position: relative;
 }
 
 .pageCounter {
-    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    letter-spacing: 0.01em;
     color: rgba(0, 0, 0, 0.87);
     text-align: center;
     margin-top: 20px;
 }
 
 .CardTitle {
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 23px;
     line-height: 32px;
     text-align: center;
     margin: 15px auto 8px auto;
-    letter-spacing: 0.01em;
     color: rgba(0, 0, 0, 0.87);
 }
 
 .CardInfo {
-    font-family: 'Montserrat';
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: 0.01em;
     color: rgba(0, 0, 0, 0.68);
     text-align: center;
 }
+
 .fullWidthImage {
     width: 100% !important;
-    height: auto !important;
     cursor: pointer;
 }
-.CardSaver{
+
+.CardSaver {
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -65,12 +59,15 @@
     z-index: 99;
     cursor: pointer;
 }
-.CardSaver svg{
+
+.CardSaver svg {
     fill: #fff;
 }
-.CardSaver svg:hover{
+
+.CardSaver svg:hover {
     fill: #535353;
 }
+
 .color {
     display: flex;
     justify-content: center;
@@ -90,9 +87,12 @@
     background-color: #96361D;
 }
 
-.Circle1:focus,.Circle2:focus,.Circle3:focus{
+.Circle1:focus,
+.Circle2:focus,
+.Circle3:focus {
     border: 2px solid black;
 }
+
 .Circle2 {
     background-color: #008985;
 }
@@ -100,6 +100,7 @@
 .Circle3 {
     background-color: #CDD0CF;
 }
+
 .paginationBtn {
     list-style: none;
     display: flex;
@@ -122,6 +123,7 @@
     margin-left: 20px;
     border-radius: 50%;
 }
+
 .paginationBtn li:first-child {
     margin-right: 20px;
     border-radius: 50%;
@@ -137,20 +139,33 @@
     border: 1px solid #004911;
     border-radius: 50%;
 }
-@media (max-width: 500px) {
-    .Card {
-        margin: 0 0px 20px 0px;
-    }
 
+@media (max-width: 1000px) {
     .cardsContainer {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 992px) {
+    .cardsContainer {
+        justify-content: center;
     }
 
+    .cardsContainer h4 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .cardsContainer p {
+        font-size: 15px;
+        line-height: 15px;
+    }
 }
-@media(max-width: 576px){
+
+@media(max-width: 576px) {
     .pageCounter {
         margin-bottom: 20px;
     }
+
     .cardsContainer h4 {
         font-size: 14px;
     }
@@ -167,32 +182,19 @@
         height: 25px;
         margin: 18px 10px 0px 10px;
     }
-    
+
     .Card Image {
         width: 80%;
         margin: 0 auto;
         display: flex;
     }
 }
-
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
+    .Card {
+        margin: 0 0px 20px 0px;
+    }
+ 
     .cardsContainer {
-        grid-template-columns: auto auto;
-    }
-}
-
-@media (max-width: 992px) {
-    .cardsContainer {
-        justify-content: center;
-    }
-
-    .cardsContainer h4 {
-        font-size: 17px;
-        line-height: 20px;
-    }
-
-    .cardsContainer p {
-        font-size: 15px;
-        line-height: 15px;
+        grid-template-columns: auto;
     }
 }
