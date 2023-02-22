@@ -38,7 +38,7 @@
 }
 
 .menuPanel select option {
-    background-color: transparent;
+    background-color: #535353;
 }
 
 .menuPanel select:focus-visible {
