@@ -17,55 +17,55 @@ export default function Footer() {
             <div className={style.footerCompany}>
                 <ul>
                     <li>
-                        <a href="#">Компании</a>
+                        <a href="#" aria-label='Call-center'>Компании</a>
                     </li>
                     <li>
-                        <a href="#">О компании</a>
+                        <a href="#" aria-label='Call-center'>О компании</a>
                     </li>
                     <li>
-                        <a href="#">Где купить</a>
+                        <a href="#" aria-label='Call-center'>Где купить</a>
                     </li>
                     <li>
-                        <a href="#">Новости / Блог</a>
+                        <a href="#" aria-label='Call-center'>Новости / Блог</a>
                     </li>
                     <li>
-                        <a href="#">Для партнеров</a>
+                        <a href="#" aria-label='Call-center'>Для партнеров</a>
                     </li>
                 </ul>
             </div>
             <div className={style.footerService}>
                 <ul>
                     <li>
-                        <a href="#">Сервисы</a>
+                        <a href="#" aria-label='Call-center'>Сервисы</a>
                     </li>
                     <li>
-                        <a href="#">Мебель на заказ</a>
+                        <a href="#" aria-label='Call-center'>Мебель на заказ</a>
                     </li>
                     <li>
-                        <a href="#">Бесплатная консультация</a>
+                        <a href="#" aria-label='Call-center'>Бесплатная консультация</a>
                     </li>
                     <li>
-                        <a href="#">Доставка и сомовывоз</a>
+                        <a href="#" aria-label='Call-center'>Доставка и сомовывоз</a>
                     </li>
                     <li>
-                        <a href="#">Сборка и установка</a>
+                        <a href="#" aria-label='Call-center'>Сборка и установка</a>
                     </li>
                 </ul>
             </div>
             <div className={style.footerWorkTime}>
                 <ul>
                     <li>
-                        <a href="#">График работы</a>
+                        <a href="#" aria-label='Call-center'>График работы</a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label='Call-center'>
                             Отдел прадаж: <br/>
     Пн-Пя с 9.00 до 18.00 <br/>
     Сб-Вс с 10.00 до 18.00
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label='Call-center'>
                             Отдел дизайна: <br/>
     Пн-Сб с 9.00 до 18.00
                         </a>
@@ -75,25 +75,25 @@ export default function Footer() {
             <div className={style.footerCallCenter}>
                 <ul>
                     <li>
-                        <a href="#">Call - Центр</a>
+                        <a href="#" aria-label='Call-center'>Call - Центр</a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label='Phone number'>
                             <i className='bx bx-phone-call'></i>+998 97 344 24 17
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label='Phone number'>
                             <i className='bx bx-phone-call'></i>+998 97 344 24 17
                         </a>
                     </li>
                     <li className={style.contactBtn}>
-                        <a href="#">
+                        <a href="#" aria-label='Contact button'>
                             <button className={style.contact}>Связаться с нами</button>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label='Socials'>
                             <button className={style.social}><i className='bx bxl-instagram'></i></button>
                             <button className={style.social}><i className='bx bxl-facebook-circle'></i></button>
                             <button className={style.social}><i className='bx bxl-youtube'></i></button>
