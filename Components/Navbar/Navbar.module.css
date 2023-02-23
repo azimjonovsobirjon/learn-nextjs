@@ -8,13 +8,11 @@
     top: 0;
 }
 .nav {
-    height: 75px;
-    max-width: 1440px;
+    height: 88px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 0 5% 0 5%;
+    padding: 4px 60px;
 }
 
 .menuPanel img {
@@ -35,6 +33,9 @@
     font-size: 20px;
     line-height: 100%;
     border: 0px;
+}
+.menuPanel select:hover{
+    color: #535353;
 }
 
 .menuPanel select option {
@@ -89,6 +90,9 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.searchIcon:hover, .savedIcon:hover{
+    color: #535353;
+}
 .languages select{
     cursor: pointer;
 }
@@ -97,7 +101,9 @@
     .searchIcon, .savedIcon {
         font-size: 1.5rem !important;
     }
-
+    .savedIcon {
+        margin-right: 0px;
+    }
     .header h1 {
         font-size: 35px;
         margin: 50px auto 20px auto;
@@ -112,9 +118,7 @@
     }
 
     .searchPanel button {
-        width: 130px;
-        height: 30px;
-        font-size: 14px;
+     display: none;
     }
 
     .navLogo img {
@@ -129,10 +133,6 @@
 
     .searchPanel button {
         display: none;
-    }
-
-    .savedIcon {
-        margin-right: 0px !important;
     }
 
     .navMenu {

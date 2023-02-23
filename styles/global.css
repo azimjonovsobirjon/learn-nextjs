@@ -7,7 +7,7 @@
 }
 
 .btn {
-    width: 200px;
+    width: 194px;
     height: 48px;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: #fff;
     background-color: #c8c8c8;
     letter-spacing: 0.01em;
     border: none;
@@ -30,6 +30,20 @@
     transition: all .3s ease;
 }
 
+::-webkit-scrollbar-thumb {
+    background-color: #545454;
+    border-radius: 50px;
+    border: 0 solid transparent;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+@media (max-width: 1200px){
+    .nav, main {
+        padding: 20px 60px;
+    } 
+}
 @media (max-width: 576px) {
     .h30 {
         font-size: 20px;

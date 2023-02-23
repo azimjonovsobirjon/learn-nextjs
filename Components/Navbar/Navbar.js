@@ -8,7 +8,7 @@ export default function Navbar() {
                 <nav className={style.nav}>
                     <div className={style.menuPanel}>
                         <div className={style.navMenu}>
-                            <MenuOutlined style={{ fontSize: '1.5rem', color: '#FFFFFF' }} />
+                            <MenuOutlined style={{ fontSize: '2rem', color: '#FFFFFF' }} />
                         </div>
                         <div>
                             <form className={style.languages}>

@@ -1,15 +1,14 @@
 .cardsContainer {
     display: grid;
     grid-template-columns: auto auto auto;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
     grid-column-gap: 30px;
     justify-content: space-between;
-    padding: 0 5%;
 }
 
 .Card {
-    margin: 0 0 53px 0;
+    margin: 0 0 60px 0;
     position: relative;
 }
 
@@ -41,9 +40,10 @@
 
 .fullWidthImage {
     width: 100% !important;
+    height: auto !important;
     cursor: pointer;
 }
-/* hello */
+
 .CardSaver {
     padding: 10px;
     width: 40px;
@@ -140,16 +140,15 @@
     border-radius: 50%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .cardsContainer {
         grid-template-columns: auto auto;
     }
-}
-@media (max-width: 992px) {
     .cardsContainer {
         justify-content: center;
     }
-
+}
+@media (max-width: 992px) {
     .cardsContainer h4 {
         font-size: 17px;
         line-height: 20px;
@@ -158,6 +157,11 @@
     .cardsContainer p {
         font-size: 15px;
         line-height: 15px;
+    }
+}
+@media (max-width: 890px){
+    .cardsContainer{
+        grid-template-columns: auto;
     }
 }
 
@@ -174,7 +178,9 @@
         font-size: 13px;
         line-height: 15px;
     }
-
+    .Card {
+        margin: 0 0px 50px 0px;
+    }
     .cardsContainer .circle1,
     .cardsContainer .circle2,
     .cardsContainer .circle3 {
@@ -189,12 +195,4 @@
         display: flex;
     }
 }
-@media (max-width: 500px) {
-    .Card {
-        margin: 0 0px 20px 0px;
-    }
- 
-    .cardsContainer {
-        grid-template-columns: auto;
-    }
-}
+

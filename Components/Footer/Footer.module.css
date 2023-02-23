@@ -6,9 +6,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-column-gap: 24px;
-    max-width: 1440px;
-    margin: 135px auto 0px auto;
-    padding: 0 5% 0 5%;
+    max-width: 1240px;
+    margin: 120px auto 0px auto;
+    padding: 20px;
 }
 
 .footer li {
